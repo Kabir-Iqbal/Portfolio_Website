@@ -17,3 +17,9 @@ export default function SkillsPage() {
     </div>
   )
 }
+
+
+// // app/skills/page.tsx
+// export default function SkillsPage() {
+//   return <h1>Skills Page</h1>;
+// }

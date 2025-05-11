@@ -83,7 +83,7 @@ export function ProjectsSection() {
               <Card className="overflow-hidden h-full flex flex-col hover:shadow-lg transition-all duration-300 group border-lavender/10 hover:border-lavender/30">
                 <div className="relative aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || ""}
                     alt={project.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"

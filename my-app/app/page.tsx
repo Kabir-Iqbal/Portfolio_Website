@@ -25,3 +25,8 @@ export default function Home() {
     </div>
   )
 }
+
+
+// export default function HomePage() {
+//   return <h1>Home Page</h1>;
+// }

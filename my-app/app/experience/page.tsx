@@ -17,3 +17,9 @@ export default function ExperiencePage() {
     </div>
   )
 }
+
+
+// // app/experience/page.tsx
+// export default function ExperiencePage() {
+//   return <h1>Experience Page</h1>;
+// }

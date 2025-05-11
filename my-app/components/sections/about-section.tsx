@@ -45,7 +45,7 @@ export function AboutSection() {
           <motion.div style={{ scale: imageScale, opacity: imageOpacity }}>
             <div className="relative aspect-square overflow-hidden rounded-2xl border-8 border-muted bg-muted group">
               <Image
-                src={portfolioData.about.image || "/dp_pic.jpg"}
+                src={portfolioData.about.image }
                 alt={portfolioData.name}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
