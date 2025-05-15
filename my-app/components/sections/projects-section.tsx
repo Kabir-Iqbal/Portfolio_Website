@@ -86,7 +86,8 @@ export function ProjectsSection() {
                     src={project.image || ""}
                     alt={project.title}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    
+                    className="object-cover  transition-transform duration-500 group-hover:scale-105"
                   />
                   {project.featured && (
                     <div className="absolute top-2 right-2">
