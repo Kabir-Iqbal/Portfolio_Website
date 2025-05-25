@@ -101,7 +101,7 @@ export const portfolioData = {
       title: "Simple Resume Builder",
       description:
         "A simple and dynamic resume builder that lets users add, edit, and preview their resume content in real-time.",
-      image: "/resume.jpg?height=600&width=800",
+      image: "/resume1.jpeg?height=600&width=800",
       techStack: ["Html5", "CSS3", "JavaScript"],
       liveUrl: "https://milestone5hackathone1.vercel.app/",
       githubUrl: "https://github.com/Kabir-Iqbal",
@@ -119,8 +119,19 @@ export const portfolioData = {
       githubUrl: "https://github.com/Kabir-Iqbal",
       featured: true,
     },
-    {
+      {
       id: "project-3",
+      title: "Notium Article",
+      description:
+        "A Notium website where users can write, view, edit, and delete articles. Only the article owner has permission to edit or delete their content, ensuring secure and personalized article management.",
+      image: "/article.webp?height=600&width=800",
+      techStack: ["React.js", "TypeScript", "Express.js", "Node.js", "MongoDB Atlas"],
+      liveUrl: "https://notium-artical.vercel.app",
+      githubUrl: "https://github.com/Kabir-Iqbal",
+      featured: true,
+    },
+    {
+      id: "project-4",
       title: "Library Management System",
       description:
         "A web app to add, delete, update, search, and view books in a library, making it easy to manage and track book inventory.",
@@ -131,7 +142,7 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: "project-4",
+      id: "project-5",
       title: "Furniture Store",
       description: "An e-commerce furniture store built with dynamic product listings, real-time CMS integration, and a responsive UI.",
       image: "/furniture-shop.jpg?height=600&width=800",
@@ -141,7 +152,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: "project-5",
+      id: "project-6",
       title: "Portfolio Website",
       description: "A personal portfolio website showcasing my projects and skills.",
       image: "/port.png?height=600&width=800",
